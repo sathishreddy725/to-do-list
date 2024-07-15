@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+div {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #5cb85c;
+    color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #0b910b;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 300px;
+}
+
+li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+
+li button {
+    background-color: #d9534f;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+li button:hover {
+    background-color: #c9302c;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
